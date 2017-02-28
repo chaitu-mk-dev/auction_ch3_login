@@ -1,0 +1,11 @@
+changes from chapter 2.
+
+app.module.ts is changed to include RouterModule LocationStrategy, RouterModule.forRoot
+and added HomeComponent and ProductDetailComponent
+
+ApplicationComponent is refactored to receive products from ProductService
+application.html is changed to contain <router-outlet></router-outlet>
+
+refactored ProductItemComponent/product-item.html to include a router link.
+
+
